@@ -22,3 +22,11 @@ export default {
   
 }
 </script>
+
+<style>
+.products{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+</style>

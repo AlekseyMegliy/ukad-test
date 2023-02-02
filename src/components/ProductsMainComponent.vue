@@ -36,8 +36,12 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 .products-main{
-    padding: 40px 10px; 
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
     overflow: hidden;
+    margin: 30px 0;
     
 }
 .products-main .head{

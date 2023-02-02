@@ -41,5 +41,7 @@ body {
 }
 .home{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 </style>

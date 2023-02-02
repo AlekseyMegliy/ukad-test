@@ -96,9 +96,10 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 .home-main-block{
-    min-height: 100vh;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
+    justify-content: center;
     
 }
 .home-main{
