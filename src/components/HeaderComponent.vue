@@ -1,10 +1,14 @@
 <template>
   <div class="header container-fluid">
-    <div class=" header-nav">
-      <img  class=" logo" src="../assets/UKAD_logo.svg">
-      <div class=" nav">
-        <router-link to="/" v-bind:class="{current:page===1}" >Home</router-link>
-        <router-link to="/products" v-bind:class="{current:page===2}" >Products</router-link>
+    <div class="header-nav">
+      <img class="logo" src="../assets/UKAD_logo.svg" />
+      <div class="nav">
+        <router-link to="/" v-bind:class="{ current: page === 1 }"
+          >Home</router-link
+        >
+        <router-link to="/products" v-bind:class="{ current: page === 2 }"
+          >Products</router-link
+        >
       </div>
     </div>
   </div>
@@ -12,42 +16,38 @@
 
 <script>
 export default {
-  props:['page']
-}
+  props: ["page"],
+};
 </script>
 
-
 <style scoped>
-
-.header{
-  background-color: #022B32;  
+.header {
+  background-color: #022b32;
 }
-.header .header-nav{
+.header .header-nav {
   padding: 25px 20px;
   display: flex;
   vertical-align: middle;
 }
-.header .logo{
+.header .logo {
   width: 110px;
   padding: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: auto 0;
 }
-.header .header-nav .nav{
+.header .header-nav .nav {
   margin: auto 0 auto 30px;
   color: white;
-  
 }
-.header .header-nav .nav a{
+.header .header-nav .nav a {
   margin: auto 30px;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.header .header-nav .nav .current{
-  text-decoration:underline;
+.header .header-nav .nav .current {
+  text-decoration: underline;
 }
-
 </style>
