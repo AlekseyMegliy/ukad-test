@@ -1,7 +1,7 @@
 <template>
     <div class="footer container-fluid">
         <div class="row copyright-row">
-        <div class="col-12 copyright">2021 @ copyright</div>
+        <div class="col-12 copyright">2021 © copyright</div>
         </div>
     </div>
   </template>
